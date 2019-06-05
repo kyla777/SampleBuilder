@@ -5,20 +5,8 @@ namespace Data
 {
     public class UserProfile
     {
-        //User user = new User();
-
-        //List<Post> posts = new List<Post>();
-
-        //public void AddPost(Post post)
-        //{
-        //    posts.Add(post);
-        //}
-
-        //public int Id { get; set; }
-        //public string FirstName { get; set; }
-        //public string LastName { get; set; }
-        //public DateTime Birthdate { get; set; }
-        //public DateTime DateCreated { get; set; }
+        // It makes sense to use the Builder pattern only when your products are
+        // quite complex and require extensive configuration.
 
         public User user = new User();
         public List<Post> posts = new List<Post>();
