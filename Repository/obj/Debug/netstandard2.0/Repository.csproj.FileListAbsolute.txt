@@ -1,0 +1,12 @@
+/Users/kula/Projects/SampleBuilder/Repository/bin/Debug/netstandard2.0/Repository.deps.json
+/Users/kula/Projects/SampleBuilder/Repository/bin/Debug/netstandard2.0/Repository.dll
+/Users/kula/Projects/SampleBuilder/Repository/bin/Debug/netstandard2.0/Repository.pdb
+/Users/kula/Projects/SampleBuilder/Repository/bin/Debug/netstandard2.0/Data.dll
+/Users/kula/Projects/SampleBuilder/Repository/bin/Debug/netstandard2.0/Data.pdb
+/Users/kula/Projects/SampleBuilder/Repository/obj/Debug/netstandard2.0/Repository.csprojAssemblyReference.cache
+/Users/kula/Projects/SampleBuilder/Repository/obj/Debug/netstandard2.0/Repository.csproj.CoreCompileInputs.cache
+/Users/kula/Projects/SampleBuilder/Repository/obj/Debug/netstandard2.0/Repository.AssemblyInfoInputs.cache
+/Users/kula/Projects/SampleBuilder/Repository/obj/Debug/netstandard2.0/Repository.AssemblyInfo.cs
+/Users/kula/Projects/SampleBuilder/Repository/obj/Debug/netstandard2.0/Repository.csproj.CopyComplete
+/Users/kula/Projects/SampleBuilder/Repository/obj/Debug/netstandard2.0/Repository.dll
+/Users/kula/Projects/SampleBuilder/Repository/obj/Debug/netstandard2.0/Repository.pdb

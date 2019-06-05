@@ -1,0 +1,9 @@
+/Users/kula/Projects/SampleBuilder/Data/obj/Debug/netstandard2.0/Data.csprojAssemblyReference.cache
+/Users/kula/Projects/SampleBuilder/Data/obj/Debug/netstandard2.0/Data.csproj.CoreCompileInputs.cache
+/Users/kula/Projects/SampleBuilder/Data/obj/Debug/netstandard2.0/Data.AssemblyInfoInputs.cache
+/Users/kula/Projects/SampleBuilder/Data/obj/Debug/netstandard2.0/Data.AssemblyInfo.cs
+/Users/kula/Projects/SampleBuilder/Data/bin/Debug/netstandard2.0/Data.deps.json
+/Users/kula/Projects/SampleBuilder/Data/bin/Debug/netstandard2.0/Data.dll
+/Users/kula/Projects/SampleBuilder/Data/bin/Debug/netstandard2.0/Data.pdb
+/Users/kula/Projects/SampleBuilder/Data/obj/Debug/netstandard2.0/Data.dll
+/Users/kula/Projects/SampleBuilder/Data/obj/Debug/netstandard2.0/Data.pdb
