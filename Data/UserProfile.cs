@@ -5,9 +5,6 @@ namespace Data
 {
     public class UserProfile
     {
-        // It makes sense to use the Builder pattern only when your products are
-        // quite complex and require extensive configuration.
-
         public User user = new User();
         public List<Post> posts = new List<Post>();
 

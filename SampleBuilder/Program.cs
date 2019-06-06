@@ -18,13 +18,17 @@ namespace SampleBuilder
             // Create 2 products => user profiles
             director.ConstructUserProfile(basic);
             UserProfile basicProfile = basic.GetUserProfile();
-            Console.WriteLine("============================== BASIC ==============================");
+            Console.WriteLine("=============================== BASIC ===============================");
             basicProfile.ShowUserProfile();
+
+            Console.WriteLine();
 
             director.ConstructUserProfile(premium);
             UserProfile premiumProfile = premium.GetUserProfile();
             Console.WriteLine("============================== PREMIUM ==============================");
             premiumProfile.ShowUserProfile();
+
+            Console.ReadKey();
         }
     }
 }

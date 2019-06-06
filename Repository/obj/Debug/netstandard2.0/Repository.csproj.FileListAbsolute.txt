@@ -10,3 +10,15 @@
 /Users/kula/Projects/SampleBuilder/Repository/obj/Debug/netstandard2.0/Repository.csproj.CopyComplete
 /Users/kula/Projects/SampleBuilder/Repository/obj/Debug/netstandard2.0/Repository.dll
 /Users/kula/Projects/SampleBuilder/Repository/obj/Debug/netstandard2.0/Repository.pdb
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\bin\Debug\netstandard2.0\Repository.deps.json
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\bin\Debug\netstandard2.0\Repository.dll
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\bin\Debug\netstandard2.0\Repository.pdb
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\bin\Debug\netstandard2.0\Data.dll
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\bin\Debug\netstandard2.0\Data.pdb
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\obj\Debug\netstandard2.0\Repository.csprojAssemblyReference.cache
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\obj\Debug\netstandard2.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfoInputs.cache
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\obj\Debug\netstandard2.0\Repository.AssemblyInfo.cs
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\obj\Debug\netstandard2.0\Repository.csproj.CopyComplete
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\obj\Debug\netstandard2.0\Repository.dll
+C:\Users\kcalpito\source\repos\SampleBuilder\Repository\obj\Debug\netstandard2.0\Repository.pdb

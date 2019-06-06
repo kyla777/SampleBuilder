@@ -53,7 +53,7 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "a/iSwnRZb+LHFk49hQOyThh/ZNC3vsbZsF65XwQIb863qF6msmhdQtxGXFL28Ob2NsCz/drEj28BJd/YPpLRBg==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -214,38 +214,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/kula/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\kcalpito\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/kula/Projects/SampleBuilder/Business/Business.csproj",
+      "projectUniqueName": "C:\\Users\\kcalpito\\source\\repos\\SampleBuilder\\Business\\Business.csproj",
       "projectName": "Business",
-      "projectPath": "/Users/kula/Projects/SampleBuilder/Business/Business.csproj",
-      "packagesPath": "/Users/kula/.nuget/packages/",
-      "outputPath": "/Users/kula/Projects/SampleBuilder/Business/obj/",
+      "projectPath": "C:\\Users\\kcalpito\\source\\repos\\SampleBuilder\\Business\\Business.csproj",
+      "packagesPath": "C:\\Users\\kcalpito\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kcalpito\\source\\repos\\SampleBuilder\\Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/kula/.config/NuGet/NuGet.Config"
+        "C:\\Users\\kcalpito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/Users/kula/Projects/SampleBuilder/Data/Data.csproj": {
-              "projectPath": "/Users/kula/Projects/SampleBuilder/Data/Data.csproj"
+            "C:\\Users\\kcalpito\\source\\repos\\SampleBuilder\\Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\kcalpito\\source\\repos\\SampleBuilder\\Data\\Data.csproj"
             },
-            "/Users/kula/Projects/SampleBuilder/Repository/Repository.csproj": {
-              "projectPath": "/Users/kula/Projects/SampleBuilder/Repository/Repository.csproj"
+            "C:\\Users\\kcalpito\\source\\repos\\SampleBuilder\\Repository\\Repository.csproj": {
+              "projectPath": "C:\\Users\\kcalpito\\source\\repos\\SampleBuilder\\Repository\\Repository.csproj"
             }
           }
         }
