@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Business"
+    "\\Business",
+    "\\SampleBuilder"
   ],
-  "SelectedNode": "\\SampleBuilder.sln",
+  "SelectedNode": "\\SampleBuilder\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

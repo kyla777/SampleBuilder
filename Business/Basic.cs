@@ -10,8 +10,8 @@ namespace Business
     public class Basic : IProfile
     { 
         private UserProfile userProfile = new UserProfile();
-        private UserRepo userRepo = new UserRepo();
-        private PostRepo postRepo = new PostRepo();
+        UserRepo userRepo = UserRepo.GetUserRepo();
+        PostRepo postRepo = PostRepo.GetPostRepo();
 
         // All production steps work with the same product instance.
 
@@ -23,7 +23,7 @@ namespace Business
         public void BuildUserPosts()
         {
 
-            userProfile.posts = postRepo.ViewAll(userProfile.user.Id, 5);
+            userProfile.posts = postRepo.ViewAll(userProfile.user.Id, 3);
         }
 
         public UserProfile GetUserProfile()

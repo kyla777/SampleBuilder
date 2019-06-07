@@ -10,8 +10,8 @@ namespace Business
     public class Premium : IProfile
     {
         private UserProfile userProfile = new UserProfile();
-        private UserRepo userRepo = new UserRepo();
-        private PostRepo postRepo = new PostRepo();
+        UserRepo userRepo = UserRepo.GetUserRepo();
+        PostRepo postRepo = PostRepo.GetPostRepo();
 
         // All production steps work with the same product instance.
 

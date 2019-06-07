@@ -6,6 +6,8 @@ namespace Repository
 {
     public class UserRepo
     {
+        private static UserRepo userRepo;
+
         List<User> users = new List<User>
         {
             new User
@@ -25,6 +27,11 @@ namespace Repository
                 DateCreated = DateTime.Parse("06/01/2019")
             }
         };
+
+        public static UserRepo GetUserRepo()
+        {
+            return userRepo;
+        }
 
         public void Create(User user)
         {

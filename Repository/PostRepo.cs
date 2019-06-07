@@ -6,6 +6,7 @@ namespace Repository
 {
     public class PostRepo
     {
+        private static PostRepo postRepo;
         List<Post> posts = new List<Post>
         {
             new Post
@@ -106,6 +107,10 @@ namespace Repository
             }
         };
 
+        public static PostRepo GetPostRepo()
+        {
+            return postRepo;
+        }
         public void Create(Post post)
         {
             post.DateCreated = DateTime.Now;
