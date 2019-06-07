@@ -7,7 +7,7 @@ namespace Business
 {
     public class UserFunctions
     {
-        UserRepo repo = UserRepo.GetUserRepo();
+        UserRepo repo = new UserRepo();
 
         public void Create(int id, string firstName, string lastName, DateTime birthDate)
         {

@@ -7,7 +7,7 @@ namespace Business
 {
     public class PostFunctions
     {
-        PostRepo repo = PostRepo.GetPostRepo();
+        PostRepo repo = new PostRepo();
         public void Create(int id, string title, string content, int createdBy)
         {
             Post post = new Post();
