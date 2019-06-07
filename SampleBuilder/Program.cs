@@ -8,7 +8,7 @@ namespace SampleBuilder
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter User Id to display profile:");
+            Console.Write("Enter User ID to view profile: ");
             int userId = int.Parse(Console.ReadLine());
 
             UserFunctions userFunctions = new UserFunctions();
@@ -19,11 +19,10 @@ namespace SampleBuilder
             Director director = new Director();
 
             // Instantiate Concrete Builders
-
             if(user.AccountType == ProjectValues.AccountType.BASIC.ToString())
             {
                 IProfile basic = new Basic();
-                director.ConstructUserProfile(basic, userId, (int)ProjectValues.AccountLimit.BASIC);
+                director.ConstructUserProfile(basic, userId, (int)ProjectValues.AccountPostLimit.BASIC);
                 UserProfile basicProfile = basic.GetUserProfile();
                 Console.WriteLine("=============================== BASIC ===============================");
                 basicProfile.ShowUserProfile();
@@ -32,7 +31,7 @@ namespace SampleBuilder
             if(user.AccountType == ProjectValues.AccountType.PREMIUM.ToString())
             {
                 IProfile premium = new Premium();
-                director.ConstructUserProfile(premium, userId, (int)ProjectValues.AccountLimit.PREMIUM);
+                director.ConstructUserProfile(premium, userId, (int)ProjectValues.AccountPostLimit.PREMIUM);
                 UserProfile premiumProfile = premium.GetUserProfile();
                 Console.WriteLine("============================== PREMIUM ==============================");
                 premiumProfile.ShowUserProfile();

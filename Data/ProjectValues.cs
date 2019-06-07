@@ -12,10 +12,19 @@ namespace Data
             PREMIUM
         }
 
-        public enum AccountLimit
+        public enum AccountPostLimit
         {
-            BASIC = 5,
+            BASIC = 4,
             PREMIUM = 0
         }
+
+        public enum AccountStateLimit
+        {
+            BASIC_LOWER = -10,
+            BASIC_UPPER = 10,
+            PREMIUM_LOWER = 10,
+            PREMIUM_UPPER = 20
+        }
+
     }
 }
