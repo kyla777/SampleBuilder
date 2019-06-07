@@ -134,8 +134,6 @@ namespace Repository
             {
                 return postsBy.GetRange(0, limit);
             }
-             
-
         }
 
         public void Update(int id, string title, string content)

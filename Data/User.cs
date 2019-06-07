@@ -5,6 +5,7 @@ namespace Data
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
+        public string AccountType { get; set; }
         public DateTime Birthdate { get; set; }
         public DateTime DateCreated { get; set; }
     }

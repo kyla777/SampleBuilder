@@ -9,10 +9,10 @@ namespace Business
 
     public class Director
     {
-        public void ConstructUserProfile(IProfile profile)
+        public void ConstructUserProfile(IProfile profile, int userId, int limit)
         {
-            profile.BuildUserInfo();
-            profile.BuildUserPosts();
+            profile.BuildUserInfo(userId);
+            profile.BuildUserPosts(userId, limit);
         }
     }
 }

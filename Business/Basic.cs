@@ -15,15 +15,15 @@ namespace Business
 
         // All production steps work with the same product instance.
 
-        public void BuildUserInfo()
+        public void BuildUserInfo(int userId)
         {
-            userProfile.user = userRepo.View(1);
+            userProfile.user = userRepo.View(userId);
         }
 
-        public void BuildUserPosts()
+        public void BuildUserPosts(int userId, int limit)
         {
 
-            userProfile.posts = postRepo.ViewAll(userProfile.user.Id, 3);
+            userProfile.posts = postRepo.ViewAll(userId, limit);
         }
 
         public UserProfile GetUserProfile()

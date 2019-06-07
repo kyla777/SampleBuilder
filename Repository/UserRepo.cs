@@ -15,6 +15,7 @@ namespace Repository
                 Id = 1,
                 FirstName = "Kyla",
                 LastName = "Calpito",
+                AccountType = ProjectValues.AccountType.BASIC.ToString(),
                 Birthdate = DateTime.Parse("06/05/1997"),
                 DateCreated = DateTime.Parse("06/01/2019")
             },
@@ -23,6 +24,7 @@ namespace Repository
                 Id = 2,
                 FirstName = "Den",
                 LastName = "Hernandez",
+                AccountType = ProjectValues.AccountType.PREMIUM.ToString(),
                 Birthdate = DateTime.Parse("12/04/1992"),
                 DateCreated = DateTime.Parse("06/01/2019")
             }

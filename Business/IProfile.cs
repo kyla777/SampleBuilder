@@ -8,8 +8,8 @@ namespace Business
 
     public interface IProfile
     {
-        void BuildUserInfo();
-        void BuildUserPosts();
+        void BuildUserInfo(int userId);
+        void BuildUserPosts(int userId, int limit);
         UserProfile GetUserProfile();
     }
 }
